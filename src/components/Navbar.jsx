@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import logoKKN from '../assets/LOGOKKENG.png'
 import { Link, useLocation } from 'react-router-dom'
 
 const navLinks = [
@@ -33,9 +34,11 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2.5 group">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-green-500 to-green-700 flex items-center justify-center text-lg shadow-md group-hover:scale-105 transition-transform">
-              🌿
-            </div>
+            <img
+              src={logoKKN}
+              alt="Logo KKN 116"
+              className="w-35 h-10 "
+            />
             <div className="leading-tight">
               <span className="block text-sm font-800 text-green-800 font-extrabold tracking-tight">
                 KKN 116
