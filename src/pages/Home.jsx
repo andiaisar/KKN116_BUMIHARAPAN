@@ -238,7 +238,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 text-center text-sm">
           <img src={LOGO} alt="Logo KKN 116 Bumi Harapan" className="h-12 w-auto mx-auto mb-2 object-contain" />
           <p className="font-semibold text-green-200/80 mb-1">@kknt116.bumiharapan</p>
-          <p>Universitas Hasanuddin · 2025/2026</p>
+          <p>Universitas Hasanuddin · 2026</p>
         </div>
       </footer>
     </main>
