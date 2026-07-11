@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import LOGO from "../assets/LOGOKKENG.png"
 
 /* ---------- Data ---------- */
 const problemStats = [
@@ -235,7 +236,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-green-950 text-green-200/60 py-8">
         <div className="max-w-6xl mx-auto px-4 text-center text-sm">
-          <div className="text-2xl mb-2">🌿</div>
+          <img src={LOGO} alt="Logo KKN 116 Bumi Harapan" className="h-12 w-auto mx-auto mb-2 object-contain" />
           <p className="font-semibold text-green-200/80 mb-1">KKN 116 Bumi Harapan</p>
           <p>Universitas Hasanuddin · 2025/2026</p>
         </div>
