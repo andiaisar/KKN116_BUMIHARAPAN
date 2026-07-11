@@ -3,7 +3,7 @@ import LOGO from "../assets/LOGOKKENG.png"
 
 /* ---------- Data ---------- */
 const problemStats = [
-  { icon: '🗑️', value: '2.5 Ton', label: 'Sampah Organik / Hari', color: 'red' },
+  { icon: '🗑️', value: '±2,4 Ton', label: 'Sampah Organik / Hari', color: 'red' },
   { icon: '💧', value: '60%', label: 'Berakhir di Lahan Terbuka', color: 'orange' },
   { icon: '🦟', value: '3x', label: 'Risiko Penyakit Meningkat', color: 'yellow' },
 ]
