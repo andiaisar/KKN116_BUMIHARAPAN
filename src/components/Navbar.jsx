@@ -41,7 +41,7 @@ export default function Navbar() {
             />
             <div className="leading-tight">
               <span className="block text-sm font-800 text-green-800 font-extrabold tracking-tight">
-                KKN 116
+                KKNT 116 PERUBAHAN IKLIM
               </span>
               <span className="block text-xs text-green-600 font-medium">
                 Bumi Harapan
