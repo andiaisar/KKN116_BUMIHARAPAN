@@ -3,7 +3,7 @@ import { useState, useRef, useEffect } from 'react';
 // Groq API - GRATIS 14.400 req/hari, tidak perlu kartu kredit
 // Daftar di: https://console.groq.com
 const API_URL = 'https://api.groq.com/openai/v1/chat/completions';
-const API_KEY_VAR = 'GROQ_API_KEY';
+const GROQ_API_KEY="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"
 
 const SYSTEM_PROMPT = `Kamu adalah asisten virtual yang ramah, sopan, dan menggunakan bahasa Indonesia yang mudah dipahami warga desa. Tugasmu membantu warga Desa Bumi Harapan. Fokus utamamu adalah memberikan informasi edukatif tentang pengelolaan sampah dan budidaya Maggot BSF (Black Soldier Fly). Jawablah semua pertanyaan warga dengan ringkas, jelas, dan baik. Gunakan bahasa yang sederhana dan mudah dipahami.`;
 
@@ -53,7 +53,7 @@ export default function TanyaAI() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${import.meta.env.GROQ_API_KEY}`,
+          'Authorization': `Bearer ${GROQ_API_KEY}`,
         },
         body: JSON.stringify({
           model: 'llama-3.1-8b-instant',
